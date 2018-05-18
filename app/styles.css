@@ -1,7 +1,7 @@
 header {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  grid-gap: 10px;
+  grid-gap: -3px;
   align-items: end;
   border-bottom: .3rem solid darkgrey;
 }
@@ -9,7 +9,7 @@ header {
 h1 {
   grid-column: 1/span 2;
   margin-left: 1rem;
-  color: orange;
+  color: lime;
 }
 
 nav {
@@ -17,7 +17,10 @@ nav {
 }
 
 nav a {
-  text-decoration: none;
-  color: darkgrey;
-  font-size:
+  text-decoration: underline;
+  color: pink;
+  font-size: 1000px;
+}
+p {
+  color: brown;
 }
